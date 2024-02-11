@@ -44,7 +44,7 @@ class ItemRegister(ABC):
         self.data_base_name = data_base_name
         self.data_base = {}
         self.item_data = []
-        # Read in current data base of available items
+        # Read in current data base of available items.
         self.read_item_name_data_base()
 
     @abstractmethod
